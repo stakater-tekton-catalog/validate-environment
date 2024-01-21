@@ -9,7 +9,7 @@ on:
 
 jobs:
   build-helm-and-push-helm:
-    uses: stakater/.github/.github/workflows/push_tekton.yaml@v0.0.55
+    uses: stakater/.github/.github/workflows/push_tekton.yaml@v0.0.64
     name: Build helm and push to registry, create tag
     with:
       HELM_PACKAGE_NAME: stakater-validate-environment
